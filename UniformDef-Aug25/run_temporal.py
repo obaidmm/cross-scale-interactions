@@ -42,7 +42,7 @@ MODELS = {
 
 PROMPT = r"""
 <task>
-You are a research analyst skilled in analytical thinking, identify **temporal cross-scale interactions** in the paragraph.
+You are a research assistant skilled in analytical thinking, identify **temporal cross-scale interactions** in the paragraph.
 A valid interaction exists only when an event/process at one temporal scale explicitly and causally influences,
 or is influenced by, another temporal scale. Output **pairwise links only**.
 If the paragraph implies A -> B -> C, output two links: A -> B and B -> C.
